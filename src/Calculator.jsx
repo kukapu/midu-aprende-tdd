@@ -36,7 +36,7 @@ export const Calculator = () => {
       setValue(String(value).concat(operation));
       if (hasResult) setHasResult(false);
     }
-}
+  }
 
 
   const handleEqual = () => {
